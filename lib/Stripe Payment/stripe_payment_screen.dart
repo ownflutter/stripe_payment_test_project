@@ -76,8 +76,7 @@ class _StripePaymentScreenState extends State<StripePaymentScreen> {
         await Stripe.instance.initPaymentSheet(
                 paymentSheetParameters: SetupPaymentSheetParameters(
                     allowsDelayedPaymentMethods: true,
-                    paymentIntentClientSecret:
-                        internetPaymentData!["client_secret"],
+                    paymentIntentClientSecret: internetPaymentData!["client_secret"],
                     style: ThemeMode.dark,
                     merchantDisplayName: "Mahafujer Rahman"))
             .then((val) {
