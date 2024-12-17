@@ -47,6 +47,7 @@ class _StripePaymentScreenState extends State<StripePaymentScreen> {
     }
   }
 
+
   // Make Internet Payment Request
   makeInternetForPayment(amountToBeCharge, currency) async {
     try {
