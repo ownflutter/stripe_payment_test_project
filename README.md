@@ -1,9 +1,4 @@
-# stripe_payment_test_project
-
-A new Flutter project.
-
-## Getting Started
-
+# Stripe Payment Test Project
 
 Document :
 ## Stripe Payment
