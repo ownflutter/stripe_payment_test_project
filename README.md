@@ -59,5 +59,9 @@ https://docs.stripe.com/api/payment_intents..
 13.
 https://docs.page/flutter-stripe/flutter_stripe/sheet
 
+14. ## In Main file
+  Stripe.publishableKey = publishableKey;
+  await Stripe.instance.applySettings();
+
 
 Make fuction and Works good.
